@@ -1,0 +1,29 @@
+.databases
+.open filename
+
+CREATE TABLE todo(
+    id INTEGER,
+    todo TEXT,
+    priority TEXT,
+    status TEXT
+);
+
+INSERT INTO todo
+(id,todo,priority,status)
+VALUES (1,"Watch Movie","LOW","TO DO");
+
+INSERT INTO todo
+(id,todo,priority,status)
+VALUES (2,"Learn Node JS","HIGH","IN PROGRESS");
+
+INSERT INTO todo
+(id,todo,priority,status)
+VALUES (3,"Learn React JS","HIGH","IN PROGRESS");
+
+INSERT INTO todo
+(id,todo,priority,status)
+VALUES (4,"Play volleyball","MEDIUM","DONE");
+
+INSERT INTO todo
+(id,todo,priority,status)
+VALUES (10,"Finalize event theme","LOW","TO DO");
